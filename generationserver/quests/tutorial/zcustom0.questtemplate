@@ -1,0 +1,16 @@
+{
+  "id" : "zcustom0.gearup",
+  "title" : "^#d69be3;Poder para Viajar",
+  "text" : "Encuentra algún artefacto para mejorar tu nave y poder viajar a otras galaxias. ^green;Necesitas el ^orange;Núcleo fundido ^green;, de una nave. ^white;Con ello podrás aplicar a tu yunque el poder de la ^purple;fusión^white;.",
+  "completionText" : "Enhorabuena. Ahora tienes el poder de la ^purple;fusión ^white;en tus manos ¿En que piensas usarlo?...",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "moltencore", 1] }
+  ],
+  "moneyRange" : [2500, 2500],
+  "rewards" : [
+    [ [ "moltencore", 1], [ "codexancestral", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "zcustom1.gearup"
+}

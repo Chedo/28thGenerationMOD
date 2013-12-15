@@ -1,0 +1,16 @@
+{
+  "id" : "hylotltutorial.gearup",
+  "title" : "^#9be3d6;Un Pez Fuera Del Agua",
+  "text" : "Has estado a la deriva en el espacio, incapaz de elegir que planeta explorar. Finalmente, el combustible de la nave se ha acabado y te encuentras en la órbita de un planeta desconocido. Antes de salir en busca de combustible, ^green;busca en el almacén de tu nave un ^pink;manipulador de materia^white;. Presiona ^green;E ^white;para interactuar con los objetos.",
+  "completionText" : "Bien hecho! El manipulador de materia te permite manipular casi cualquier cosa dentro del juego.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial2.gearup"
+}

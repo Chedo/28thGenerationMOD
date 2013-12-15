@@ -1,0 +1,16 @@
+{
+  "id" : "glitchtutorial.gearup",
+  "title" : "^#9be3d6;Hora De Mejoras",
+  "text" : "Como uno de los pocos Glitch que alcanzan a tener consciencia de si mismos, te viste obligado a huir de tu hogar. Ahora, no tienes combustible y estas en la órbita de un planeta desconocido. Antes de salir en busca de combustible, ^green;busca en el almacén de tu nave un ^pink;manipulador de materia^white;. Presiona ^green;E ^white;para interactuar con los objetos.",
+  "completionText" : "Bien hecho! El manipulador de materia te permite manipular casi cualquier cosa dentro del juego.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial2.gearup"
+}

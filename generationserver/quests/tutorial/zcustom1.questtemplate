@@ -1,0 +1,16 @@
+{
+  "id" : "zcustom1.gearup",
+  "title" : "^#d69be3;Yunque de Fusión",
+  "text" : "Construye con tu nuevo artefacto un nuevo yunque de fusión. ^green;Necesitas el ^orange;Núcleo fundido ^green;, de una nave. ^white;Con ello podrás aplicar a tu yunque el poder de la ^purple;fusión^white;.",
+  "completionText" : "Has imbuido tu yunque con el poder de la ^purple;fusión ^white;, utilízalo sabiamente.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "metalworkstation", 1] }
+  ],
+  "moneyRange" : [300, 300],
+  "rewards" : [
+    [ [ "metalworkstation", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "zcustom_0.gearup"
+}

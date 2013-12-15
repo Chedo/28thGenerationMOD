@@ -1,0 +1,16 @@
+{
+  "id" : "tutorial3b.gearup",
+  "title" : "^#9be3d6;Falta la sarten...",
+  "text" : "^green;Es hora de construir un ^orange;horno^green;. ^white;Tendrás que conseguir algunas piedras, una hoguera y un poco de carbón. Si deseas saber exactamente las cantidades que necesitas de cada una, accede a la mesa de trabajo, desmarca materiales disponibles y desplaza el ratón sobre la receta, se mostraran las cantidades de cada uno de los ingredientes.",
+  "completionText" : "Grandioso!, ya era hora de que jugásemos con fuego.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "stonefurnace", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "stonefurnace", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial4.gearup"
+}

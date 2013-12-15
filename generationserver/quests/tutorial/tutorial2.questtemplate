@@ -1,0 +1,16 @@
+{
+  "id" : "tutorial2.gearup",
+  "title" : "^#9be3d6;Clase de Taller",
+  "text" : "Es hora de explorar el planeta en busca del combustible. Para sobrevivir allí abajo vas a necesitar herramientas. Para producirlas necesitaras ^green;Fabricarte una ^orange;mesa de trabajo. ^green;Usa la plataforma de tele-transporte que tienes en la nave y lánzate a por ello!",
+  "completionText" : "Bien hecho! El uso de esta mesa te dará acceso a cantidad de nuevas recetas. La recolección de combustible y las visitas a planetas son las mejores formas de encontrar recursos.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "woodencraftingtable1", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "woodencraftingtable1", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial3.gearup"
+}

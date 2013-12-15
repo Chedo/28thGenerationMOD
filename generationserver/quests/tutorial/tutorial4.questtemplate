@@ -1,0 +1,16 @@
+{
+  "id" : "tutorial4.gearup",
+  "title" : "^#9be3d6;Forja a la vista",
+  "text" : "Lo siguiente que tenemos que conseguirte es una armadura. Trabajar con metal requiere un yunque, pero antes de que podamos elaborar uno, tendrás que fundir un poco de mineral de hierro. ^green;Consigue 2x de mineral de hierro y fundelos en el horno para obtener un ^orange;lingote de hierro^white;.",
+  "completionText" : "Buen trabajo! Necesitaras un buen montón de estos lingotes para crear el yunque.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "ironbar", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "ironbar", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial5.gearup"
+}

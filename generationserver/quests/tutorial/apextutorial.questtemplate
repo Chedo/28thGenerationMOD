@@ -1,0 +1,16 @@
+{
+  "id" : "apextutorial.gearup",
+  "title" : "^#9be3d6;A La Carrera.",
+  "text" : "El Miniknog ha aplastado la rebelión Apex. Has conseguido escapar con vida secuestrando una nave. El combustible se ha acabado y la nave se encuentra en la órbita de un planeta desconocido. Antes de salir en busca de combustible, ^green;busca en el almacén de tu nave un ^pink;manipulador de materia^white;. Presiona ^green;E ^white;para interactuar con los objetos.",
+  "completionText" : "Bien hecho! El manipulador de materia te permite manipular casi cualquier cosa dentro del juego.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "beamaxe", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "beamaxe", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial2.gearup"
+}

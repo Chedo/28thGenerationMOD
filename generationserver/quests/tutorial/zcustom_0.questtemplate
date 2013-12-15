@@ -1,0 +1,17 @@
+{
+  "id" : "zcustom_0.gearup",
+  "title" : "^#d69be3;La Piedra Antigua",
+  "text" : "Has encontrado una extraña piedra antigua con el dibujo de un yunque. ^green;Encuentra un ^orange;Yunque ^green;, que encaje. ^white;Quien sabe que secretos esconde esta piedra.",
+  "completionText" : "Parece que este ^orange;Yunque ^white;tiene la capacidad de ^purple;forjar en frío ^white; ¡Y viene con instrucciones!",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "codexancestral", 1] },
+    { "kind" : "gather", "item" : [ "solidworkstation", 1] }
+  ],
+  "moneyRange" : [100, 100],
+  "rewards" : [
+    [ [ "solidworkstation", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : ""
+}

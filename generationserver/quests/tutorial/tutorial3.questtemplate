@@ -1,0 +1,16 @@
+{
+  "id" : "tutorial3.gearup",
+  "title" : "^#9be3d6;Luchando por comida",
+  "text" : "Probablemente ya estarás empezando a sentir hambre. La comida puede encontrarse en una gran variedad de lugares pero, por ahora, tu mejor opción es realizar una pequeña cacería. ^green;Adquiere algo de carne alienigena matando un monstruo con un ^orange;arco ^green;y cocinala en una hoguera para obtener ^orange;carne alienigena cocinada^white;.",
+  "completionText" : "Que aproveche! y si eres vegetariano, deshazte de la carne y empieza a sembrar cultivos.",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "cookedalienmeat", 1] }
+  ],
+  "moneyRange" : [10, 10],
+  "rewards" : [
+    [ [ "cookedalienmeat", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "tutorial3b.gearup"
+}

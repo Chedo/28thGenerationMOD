@@ -1,0 +1,7 @@
+{
+  "assetSources" : [
+    "../../../assets",
+	"../../../generation"
+  ],
+  "storageDirectory" : "../../../"
+}

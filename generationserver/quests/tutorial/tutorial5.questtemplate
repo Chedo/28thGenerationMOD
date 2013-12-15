@@ -1,0 +1,16 @@
+{
+  "id" : "tutorial5.gearup",
+  "title" : "^#9be3d6;Primer Contacto",
+  "text" : "El motor de tu nave no es aun lo suficientemente potente como para llevarte más allá del sector Alfa. ^green;Crea una ^orange;Baliza de emergencia ^green;y, quizás, seas capaz de contactar con una nave mas grande. ^white;Pero asegúrate de estar preparado para cualquier cosa antes de hacerlo!",
+  "completionText" : "Muy bien hecho. Te sugiero que te prepares antes de colocarla. Quien sabe, quien o que recibirá tu señal...",
+  "conditions" : [
+    { "kind" : "gather", "item" : [ "ironbeacon", 1] }
+  ],
+  "moneyRange" : [500, 500],
+  "rewards" : [
+    [ [ "ironbeacon", 1] ]
+  ],
+  "planetMode" : "none",
+  "questDungeons" : [ ],
+  "followUp" : "zcustom0.gearup"
+}
