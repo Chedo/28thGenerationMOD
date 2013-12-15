@@ -4,7 +4,7 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "Esta espada ha sido creada por el dios insecto mariquita en su forja, osea, es total.",
+  "description" : "Salida de la forja sagrada, esta espada fue creada por el dios Pedevain.",
   "shortdescription" : "Pedete de Vainilla",
   "inspectionKind" : "sword",
   "kind" : "Shortsword",
