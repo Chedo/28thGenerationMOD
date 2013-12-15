@@ -1,0 +1,8 @@
+{
+  "itemName" : "solidcore",
+  "rarity" : "Legendary",
+  "maxStack" : 5,
+  "inventoryIcon" : "solidcore.png",
+  "description" : "Un poderoso núcleo sólido con múltiples aplicaciones!",
+  "shortdescription" : "Núcleo Sólido"
+}

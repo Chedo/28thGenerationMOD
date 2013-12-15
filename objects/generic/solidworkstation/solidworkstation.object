@@ -1,0 +1,39 @@
+{
+  "objectName" : "solidworkstation",
+  "rarity" : "Common",
+  "objectType" : "interactable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/solidworkstation.config",
+    "filter" : [ "solidworkstation" ]
+  },
+  "printable" : false,
+  "description" : "Fundición para producir objetos ancestrales con metales en frío.",
+  "shortdescription" : "Fundición sólida",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : "450",
+
+  "apexDescription" : "Una Fundición sólida. Puedo trabajar con metales en frío.",
+  "avianDescription" : "Una Fundición sólida. Puedo trabajar con metales en frío.",
+  "floranDescription" : "Los Floran hacemos metaaaal muuuy frrriooo.",
+  "glitchDescription" : "Sentencia. Poder hacer metal frío.",
+  "humanDescription" : "Una Fundición sólida. Puedo trabajar con metales en frío.",
+  "hylotlDescription" : "Una Fundición sólida. Puedo trabajar con metales en frío.",
+
+  "inventoryIcon" : "solidworkstationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "solidworkstation.png:<color>.<frame>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 5,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

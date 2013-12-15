@@ -1,0 +1,8 @@
+{
+  "itemName" : "codexancestral",
+  "rarity" : "Legendary",
+  "maxStack" : 1,
+  "inventoryIcon" : "codexancestral.png",
+  "description" : "Una  extraña piedra, tiene el dibujo de un yunque.",
+  "shortdescription" : "Piedra Extraña"
+}

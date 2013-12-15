@@ -1,0 +1,57 @@
+{
+  "itemName" : "pedetedevainilla",
+  "level" : 37,
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Esta espada ha sido creada por el dios insecto mariquita en su forja, osea, es total.",
+  "shortdescription" : "Pedete de Vainilla",
+  "inspectionKind" : "sword",
+  "kind" : "Shortsword",
+
+  "image" : "pedetedevainilla.png",
+  "firePosition" : [57, -16],
+  "fireTime" : 0.6,
+  "fireAfterWindup" : true,
+  "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_fire_axe1.wav" } ] },
+
+  "colorOptions" : [
+
+  ],
+
+  "primaryStances" : {
+    "projectileType" : "fireshortsword",
+    "projectile" : {
+      "speed" : 0.1,
+      "power" : 3200
+    },
+    "idle" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -95,
+      "handPosition" : [-1, -28],
+      "armFrameOverride" : "idleMelee",
+      "duration" : 0.1
+    },
+    "windup" : {
+      "twoHanded" : false,
+      "armAngle" : 90,
+      "swordAngle" : 90,
+      "handPosition" : [0, -24],
+      "duration" : 0.2,
+      "statusEffects" : [
+      { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    },
+    "cooldown" : {
+      "twoHanded" : false,
+      "armAngle" : -90,
+      "swordAngle" : -105,
+      "handPosition" : [0, -30.5],
+      "duration" : 0.4,
+      "statusEffects" : [
+      { "kind" : "shieldsuppressed", "duration" : 0.1 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironanvil", "count" : 1 },
+    { "item" : "money", "count" : 600 },
+    { "item" : "solidcore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "solidworkstation",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "all", "tools" ]
+}
