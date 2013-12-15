@@ -7,20 +7,20 @@
   "description" : "Salida de la forja sagrada, esta espada fue creada por el dios Pedevain.",
   "shortdescription" : "Pedete de Vainilla",
   "inspectionKind" : "sword",
-  "kind" : "Shortsword",
-
+  "kind" : "broadsword",
   "image" : "pedetedevainilla.png",
-  "firePosition" : [57, -16],
+  "firePosition" : [20.5, 0.5],
   "fireTime" : 0.6,
   "fireAfterWindup" : true,
   "soundEffect" : { "fireSound" : [ { "file" : "/sfx/melee/swing_fire_axe1.wav" } ] },
 
+  
   "colorOptions" : [
 
   ],
 
   "primaryStances" : {
-    "projectileType" : "fireshortsword",
+    "projectileType" : "electricbroadsword",
     "projectile" : {
       "speed" : 0.1,
       "power" : 3200
@@ -34,9 +34,9 @@
       "duration" : 0.1
     },
     "windup" : {
-      "twoHanded" : false,
+      "twoHanded" : true,
       "armAngle" : 90,
-      "swordAngle" : 90,
+      "swordAngle" : 60,
       "handPosition" : [0, -24],
       "duration" : 0.2,
       "statusEffects" : [
@@ -44,7 +44,7 @@
       ]
     },
     "cooldown" : {
-      "twoHanded" : false,
+      "twoHanded" : true,
       "armAngle" : -90,
       "swordAngle" : -105,
       "handPosition" : [0, -30.5],
